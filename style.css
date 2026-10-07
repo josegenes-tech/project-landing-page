@@ -17,15 +17,15 @@ body {
    }
 .hlogo {
  font-weight: 900;
- padding: 10px 50px;
- Color: #F9FAF8
  
-}
+ Color: #F9FAF8;
+ margin-left: 20px;
+ }
 .texto {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
-  width: 300px;
+  width: 350px;
 }
 .subtext{
     font-size: 18px;
@@ -91,9 +91,9 @@ button {
  }
 
 .some {
-    color: black;
-    font-size: 36px;
-    font-weight: 900;
+   color: black;
+   font-size: 36px;
+   font-weight: 900;
    text-align: center; 
    padding: 50px;
 }
@@ -122,12 +122,71 @@ button {
     
    }
     .alinhar {
-        display: flex;
-        justify-content: space-between;
+       display: flex;
+       justify-content: space-between;
        width: 850px;
        margin-left: 250px;
     
     }
     .this {
-        margin-top: 200px;
+      margin-top: 130px;
+      background-color: #E5E7EB;
+      font-size: 32px;
+      Color: #1F2937;
+      font-weight: 300;
+      font-style: italic;
+      width: auto;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+                   
+    }
+    .text {
+        padding: 30px 250px 10px 250px;
+    }
+       
+    .thor {
+        color: #1F2937;
+        font-weight: 900;
+        font-size: small;
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 500px;
+    }
+    .ctaction {
+        width: auto;
+        height: 350px;
+        background-color: #F9FAF8;
+        margin-top: 345px;
+        margin-left: 41px;
+        margin-right: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .call {
+        background-color: #3882F6;
+        width: 1100px;
+        height: 150px;
+        color: #E5E7EB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+    }
+    button {
+        border: #E5E7EB solid 5px;
+        border-radius: 20px;
+        padding: 10px 30px;
+        margin-right: 100px;
+
+    }
+    .sign {
+        margin-left: 100px;
+    }
+    .weight {
+        font-weight: 900;
     }
